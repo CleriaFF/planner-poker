@@ -1,5 +1,9 @@
+
+
 # planner-poker
-Projeto Angular de uma aplicação de Planner Poker, utilizando arquitetura hexagonal.
+Projeto Angular de uma aplicação de <ins>Planning Poker</ins>, utilizando arquitetura hexagonal.
+
+# A arquitetura hexagonal separa a lógica de negócio (domínio) das camadas externas (como UI, APIs, ou serviços), utilizando "portas" (interfaces) e "adaptadores" (implementações). No caso do Angular, isso significa isolar a lógica de negócio dos componentes visuais e serviços HTTP, por exemplo.
 
 
 # Adapters
@@ -11,3 +15,10 @@ Traduzem ações do mundo externo (como cliques do usuário, chamadas de API RES
 
 # Domain
  É o núcleo da arquitetura, contendo entidades e regras de negócio. É o "coração" da aplicação, onde é definido o que ela faz, mas não como ela se conecta ao mundo externo.
+(Entidades e Regras de negócio).
+
+# Ports 
+Interfaces que definem como o domínio se comunica com o exterior.
+
+> [!TIP]
+> Os adaptadores (primários ou secundários) implementam essas interfaces, conectando o domínio ao mundo real.
