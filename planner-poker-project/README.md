@@ -20,5 +20,5 @@ Traduzem ações do mundo externo (como cliques do usuário, chamadas de API RES
 # Ports 
 Interfaces que definem como o domínio se comunica com o exterior.
 
-> [!TIP]
+> [!Info]
 > Os adaptadores (primários ou secundários) implementam essas interfaces, conectando o domínio ao mundo real.
