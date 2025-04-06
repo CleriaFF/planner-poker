@@ -3,7 +3,7 @@
 # planner-poker
 Projeto Angular de uma aplicação de <ins>Planning Poker</ins>, utilizando arquitetura hexagonal.
 
-# A arquitetura hexagonal separa a lógica de negócio (domínio) das camadas externas (como UI, APIs, ou serviços), utilizando "portas" (interfaces) e "adaptadores" (implementações). No caso do Angular, isso significa isolar a lógica de negócio dos componentes visuais e serviços HTTP, por exemplo.
+A arquitetura hexagonal separa a lógica de negócio (domínio) das camadas externas (como UI, APIs, ou serviços), utilizando "portas" (interfaces) e "adaptadores" (implementações). No caso do Angular, isso significa isolar a lógica de negócio dos componentes visuais e serviços HTTP, por exemplo.
 
 
 # Adapters
